@@ -1,0 +1,90 @@
+/* Lol */
+
+* {
+    font-family: Arial;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    
+    background-color: #002;
+}
+
+
+h1, h2, p, button, ul, ol, li {
+    color: #fff;
+    text-align: center;
+    list-style-position: inside;
+}
+
+p, button, ul, ol, li {
+    line-height: 1.9;
+    font-size: 16pt;
+    margin-left: 128px;
+    margin-right: 128px;
+}
+
+
+.h1HR {
+    margin-left: 256px;
+    margin-right: 256px;
+}
+
+
+h1 {
+    font-size: 38pt;
+}
+
+h2 {
+    font-size: 30pt
+}
+
+
+/* navbar stuff */
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 16px 0px;
+    user-select: none;
+}
+
+.navbar a {
+    color: #FFF;
+    padding: 14px 20px;
+    font-size: 16pt;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.navbar a:hover {
+    background-color: #DDD;
+    color: #000;
+}
+
+.navbar a.ImHere {
+    background-color: #80EEFF;
+    color: #000;
+}
+
+/* other stuff now. also this is the 69th line lol */
+
+.buttons {
+    cursor: pointer;
+    background-color: #0A0;
+    padding: 16px 32px;
+    border-radius: 16px;
+    border-color: rgb(128, 128, 128);
+    transition: 0.125s;
+}
+.flashFeet {font-size: 24pt;}
+
+.buttons:hover {
+    transform: scale(1.0625);
+    background-color: #080;
+}
+
+.buttonsNormal {background-color: #333;}
+.buttonsNormal:hover {background-color: #222; transform: scale(1.125)}
